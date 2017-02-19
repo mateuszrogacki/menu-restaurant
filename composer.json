@@ -1,0 +1,16 @@
+{
+  "name": "menu-restaurant",
+  "require": {
+    "php" : ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Restaurant\\Menu\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Restaurant\\Menu\\Test\\": "test/"
+    }
+  }
+}
